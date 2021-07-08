@@ -1,0 +1,22 @@
+{
+	"data":[
+		{
+			"title": "burgers",
+			"text": "Данный сайт был разработан на плантом курсе от LoftSchool (Начинающий Веб-разработчик).",
+			"img": "burgers.jpg",
+			"url": "https://alimbo-zzz.github.io/burgers/index.html",
+			"tags": [
+				"SCSS", "JavaScript", "Pug"
+			]
+		}, 
+		{
+			"title": "sinica",
+			"text": "Данный сайт был разработан в команде вместе с Дизанером и Backend-разработчиком для Арт-студии.",
+			"img": "sinica.jpg",
+			"url": "https://alimbo-zzz.github.io/sinica/index.html",
+			"tags": [
+				"SCSS", "JavaScript", "Pug", "AJAX"
+			]
+		}
+	]
+}

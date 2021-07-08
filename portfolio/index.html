@@ -1,0 +1,353 @@
+<!DOCTYPE html >
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="./resources/A.ico"/>
+    <title>Portfolio</title>
+    <script src="resources/API/aos/aos.js" defer=""></script>
+    <link href="resources/API/aos/aos.css" rel="stylesheet"/>
+    <script src="resources/API/splide/splide.min.js" defer=""></script>
+    <link href="resources/API/splide/splide.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="main.min.css"/>
+    <script src="main.min.js" defer=""></script>
+  </head>
+  <body>
+    <div>
+    </div>
+    <main class="mainContent">
+      <section class="S_intro">
+        <div class="S_intro__block">
+          <div class="header"><a class="logo" href="">A</a>
+            <ul class="menu">
+              <li class="menu-el"><a href="#s_about">обо мне</a></li>
+              <li class="menu-el"> <a href="#s_skills">навыки</a></li>
+              <li class="menu-el"> <a href="#s_portfolio">портфолио</a></li>
+              <li class="menu-el"> <a href="#s_footer">контакты</a></li>
+            </ul><a class="btn btn_header" href="#s_form">заявка</a>
+            <div class="hamburger"> <span class="hamburger__line"></span></div>
+          </div>
+          <h1 class="user-name parallax">Alim Mambetov</h1><a class="arrow" href="#s_about">
+                  <svg>
+                    <use xlink:href="./assets/icons/svg/sprite.svg#arrow"></use>
+                  </svg></a>
+        </div>
+        <div class="S_intro__block">
+          <div class="container about" id="s_about">
+            <h2 class="title title_about" data-aos="fade-up">обо мне</h2>
+            <div class="about-content">
+              <div class="about-content__box">     <img class="smoke_al" src="./assets/images/smoke_al.png"/>
+                <div class="alimbo"><img class="al" src="./assets/images/Alimbo.jpg"/></div>
+              </div>
+              <div class="about-content__box">
+                <p class="text">Привет, меня зовут</p>
+                <h3 class="title" data-aos="zoom-out" data-aos-duration="1500">Алим Мамбетов</h3>
+                <p class="text">Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.</p>
+              </div>
+              <div class="about-content__box">
+                <ul class="about-list">
+                  <li class="about-list-el" data-aos="fade-right"><span class="inf">Проживаю</span><span class="inf inf_white">Санкт-Петербург   </span></li>
+                  <li class="about-list-el" data-aos="fade-right"><span class="inf">Возраст</span><span class="inf inf_white">20 лет   </span></li>
+                  <li class="about-list-el" data-aos="fade-right"><span class="inf">Родился</span><span class="inf inf_white">09 марта 2001 г.   </span></li>
+                </ul>
+              </div>
+              <div class="about-content__box">
+                <p class="i">У меня полностью кроссбраузерная, адаптивная и валидная верстка. Для обеспечения выполнения требований, предъявляемых к верстке сайта в процессе работы над проектом я использую сборщик проектов Gulp для автоматизации процесса верстки, препроцессоры Less/Sass для ускоренной стилизации сайта и более гибкого кода, шаблонизатор Pug, Pixel Perfect для верстки, совпадающей с предоставленным макетом «пиксель в пиксель», БЭМ и media-запросы для адаптивной верстки сайта. Динамика сайта организуется собственным JavaScript кодом или настроенными плагинами. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="S_skills" id="s_skills"><img class="keyB-img" src="./assets/images/keyB.png"/><img class="kof-img" src="./assets/images/kof.png"/>
+        <div class="container"> 
+          <h2 class="title" data-aos="fade-up">Навыки</h2>
+          <div class="splide" id="ss_skills">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">HTML5</span>
+                          <svg class="skill-card__logo HTML5">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#html"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">CSS3</span>
+                          <svg class="skill-card__logo CSS3">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#css"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">JavaScript</span>
+                          <svg class="skill-card__logo JavaScript">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#js"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">Figma</span>
+                          <svg class="skill-card__logo Figma">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#figma"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">PhotoShop</span>
+                          <svg class="skill-card__logo PhotoShop">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#photoshop"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">Pug</span>
+                          <svg class="skill-card__logo Pug">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#pug"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">Sass</span>
+                          <svg class="skill-card__logo Sass">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#sass"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">Gulp</span>
+                          <svg class="skill-card__logo Gulp">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#gulp"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">Vue</span>
+                          <svg class="skill-card__logo Vue">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#vue"></use>
+                          </svg>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="skill-card"><span class="skill-card__title">React</span>
+                          <svg class="skill-card__logo React">
+                            <use xlink:href="./assets/icons/ico/sprite.svg#react"></use>
+                          </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="S_portfolio" id="s_portfolio">
+        <div class="container">
+          <h1 class="title" data-aos="fade-up">Портфолио</h1>
+          <div class="portfolio">
+            <div class="portfolio__block">
+              <div class="splide" id="portfolio">
+                <div class="portfolio-btns">
+                  <button class="portfolio-btns_prev">
+                          <svg>
+                            <use xlink:href="./assets/icons/svg/sprite.svg#arrow_1"></use>
+                          </svg>
+                  </button>
+                  <button class="portfolio-btns_next">
+                          <svg>
+                            <use xlink:href="./assets/icons/svg/sprite.svg#arrow_1"></use>
+                          </svg>
+                  </button>
+                </div>
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide"><img class="portfolio-slider__img" src="./assets/images/горы.jpg"/></li>
+                    <li class="splide__slide"><img class="portfolio-slider__img" src="./assets/images/горы.jpg"/></li>
+                    <li class="splide__slide"><img class="portfolio-slider__img" src="./assets/images/горы.jpg"/></li>
+                    <li class="splide__slide"><img class="portfolio-slider__img" src="./assets/images/горы.jpg"/></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__block">
+              <div class="portfolio-info" data-aos="flip-down" data-aos-duration="700">
+                <ul class="tag-list scroll_tags">
+                  <li class="tag-list__el"><span class="tag">HTML5</span></li>
+                  <li class="tag-list__el"><span class="tag">CSS3</span></li>
+                  <li class="tag-list__el"><span class="tag">JavaScript</span></li>
+                  <li class="tag-list__el"><span class="tag">Pug</span></li>
+                </ul>
+                <h4 class="title" id="portfolio_el_title">burgers</h4>
+                <p class="text scroll_1" id="portfolio_el_text">Сайт был на курсе (Начинающий веб-разработчик) в школе LoftSchool!Сайт был на курсе (Начинающий веб-разработчик) в школе LoftSchool!Сайт был на курсе (Начинающий веб-разработчик) в школе LoftSchool!</p>
+                <label class="web-src">
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#link"></use>
+                        </svg><a target="blank" id="portfolio_el_link">Посмотреть сайт</a>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="s_form" id="s_form">
+        <div class="container">
+          <h1 class="title" data-aos="fade-up">Заявка</h1>
+          <form class="form" autocomplete="off" id="basket-modal">
+            <label class="form__box">
+              <p class="text">Введите ваше имя:</p>
+              <input class="form-el _req" type="text"/>
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#user"></use>
+                    </svg>
+            </label>
+            <label class="form__box">
+              <p class="text">Введите ваш @mail:</p>
+              <input class="form-el _req" type="text"/>
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#mail"></use>
+                    </svg>
+            </label>
+            <label class="form__box">
+              <p class="text">Сообщение к письму:</p>
+              <textarea class="form-el scroll_1 _req" type="text"></textarea>
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#message"></use>
+                    </svg>
+            </label>
+            <div class="form__box">
+              <button class="btn reset" type="reset">Очистить</button>
+              <button class="btn btn_header submit" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <section class="S_reviews" id="s_reviews">
+        <div class="container">
+          <h2 class="title">Отзывы</h2>
+          <div class="reviews-slider">
+            <ul class="reviews-slider__list">
+              <li class="reviews-slider__el">
+                <p class="text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 4,5 месяца только самых тяжелых испытаний и бессонных ночей!</p>
+                <div class="reviews-slider__block">
+                  <div class="reviews-slider__box"><img class="review-img" src=""/></div>
+                  <div class="reviews-slider__box">
+                    <h4 class="name">Ковальчук Дмитрий</h4>
+                    <p class="text">Основатель LoftSchool</p>
+                  </div>
+                </div>
+              </li>
+              <li class="reviews-slider__el">
+                <p class="text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 4,5 месяца только самых тяжелых испытаний и бессонных ночей!</p>
+                <div class="reviews-slider__block">
+                  <div class="reviews-slider__box"><img class="review-img" src=""/></div>
+                  <div class="reviews-slider__box">
+                    <h4 class="name">Ковальчук Дмитрий</h4>
+                    <p class="text">Основатель LoftSchool</p>
+                  </div>
+                </div>
+              </li>
+              <li class="reviews-slider__el">
+                <p class="text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 4,5 месяца только самых тяжелых испытаний и бессонных ночей!</p>
+                <div class="reviews-slider__block">
+                  <div class="reviews-slider__box"><img class="review-img" src=""/></div>
+                  <div class="reviews-slider__box">
+                    <h4 class="name">Ковальчук Дмитрий</h4>
+                    <p class="text">Основатель LoftSchool</p>
+                  </div>
+                </div>
+              </li>
+              <li class="reviews-slider__el">
+                <p class="text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 4,5 месяца только самых тяжелых испытаний и бессонных ночей!</p>
+                <div class="reviews-slider__block">
+                  <div class="reviews-slider__box"><img class="review-img" src=""/></div>
+                  <div class="reviews-slider__box">
+                    <h4 class="name">Ковальчук Дмитрий</h4>
+                    <p class="text">Основатель LoftSchool</p>
+                  </div>
+                </div>
+              </li>
+              <li class="reviews-slider__el">
+                <p class="text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 4,5 месяца только самых тяжелых испытаний и бессонных ночей!</p>
+                <div class="reviews-slider__block">
+                  <div class="reviews-slider__box"><img class="review-img" src=""/></div>
+                  <div class="reviews-slider__box">
+                    <h4 class="name">Ковальчук Дмитрий</h4>
+                    <p class="text">Основатель LoftSchool</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="reviews-btn-box">
+              <button class="reviews-btn-box_prev">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#arrow_4"></use>
+                      </svg>
+              </button>
+              <button class="reviews-btn-box_next">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#arrow_4"></use>
+                      </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="S_footer" id="s_footer"> 
+        <div class="container footer">
+          <div class="footer-el create">© 2021</div>
+          <div class="footer-el inf">
+            <h4 class="title" data-aos="zoom-out" data-aos-duration="1500">АЛИМ МАМБЕТОВ</h4>
+            <p class="text">Личный сайт веб-разработчика</p>
+          </div>
+          <div class="footer-el quotes">
+            <p class="text">Не волнуйтесь, если что-то не работает. Если бы всё работало, вас бы уволили.<i class="i">Mosher’s Law</i></p>
+            <p class="text">В теории, теория и практика неразделимы. На практике это не так.<i class="i">Yoggi Berra</i></p>
+          </div>
+          <div class="footer-el phone">
+            <div class="phone__box">
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#phone"></use>
+                    </svg><a class="text" href="tel:+79994919794" target="blank">+7(999)491-97-94</a>
+            </div>
+          </div>
+          <div class="footer-el socials" data-aos="fade"><a class="socials__box vk" href="https://vk.com/alim_mambetov" target="blank">
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#vk"></use>
+                    </svg></a><a class="socials__box github" href="https://github.com/Alimbo-zzz" target="blank">
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#github"></use>
+                    </svg></a><a class="socials__box gmail" href="mailto:alimbo333@gmail.com" target="blank">
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#gmail"></use>
+                    </svg></a><a class="socials__box telegram" href="https://t.me/Alimbo_zzz" target="blank">
+                    <svg>
+                      <use xlink:href="./assets/icons/svg/sprite.svg#telegram"></use>
+                    </svg></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="hamburger-menu">
+      <ul class="hamburger-menu-list scroll_1">
+        <li class="hamburger-menu-list__el"><a href="#s_about">обо мне</a></li>
+        <li class="hamburger-menu-list__el"> <a href="#s_skills">навыки</a></li>
+        <li class="hamburger-menu-list__el"> <a href="#s_portfolio">портфолио</a></li>
+        <li class="hamburger-menu-list__el"> <a href="#s_footer">контакты</a></li>
+      </ul>
+    </div>
+    <div class="loader">
+      <div class="loader__logo">
+        <div class="cssload-loader">
+          <div class="cssload-inner cssload-one"></div>
+          <div class="cssload-inner cssload-two"></div>
+          <div class="cssload-inner cssload-three"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal__window">
+        <h3 class="title">title</h3>
+        <p class="text scroll_1">text</p>
+        <button class="btn">ок</button>
+      </div>
+    </div>
+  </body>
+</html>
