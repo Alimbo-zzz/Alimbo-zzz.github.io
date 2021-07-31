@@ -1,0 +1,33 @@
+
+
+/* ________girl_________ */
+
+
+
+.girl{
+	position: absolute;
+	z-index: 5;
+	left: 44.5%; bottom: 19%;
+	transition: 0.3s;
+	
+}
+
+
+@keyframes move_girl{
+	0%{left: 44.5%; bottom: 19%;}
+	5%{left: 38%; bottom: 26%;}
+	10%{left: 35%; bottom: 25%;}
+	20%{left: 27%; bottom: 18%;}
+	30%{left: 18%; bottom: 15%;}
+	40%{left: 10%; bottom: 19%;}
+	45%{left: 8%; bottom: 24%;}
+	50%{left: 12%; bottom: 29%;}
+	60%{left: 13.5%; bottom: 38%;}
+	70%{left: 21%; bottom: 45%;}
+	75%{left: 23%; bottom: 48%;}
+	80%{left: 17%; bottom: 55%;}
+	85%{left: 11.5%; bottom: 61%;}
+	90%{left: 13%; bottom: 64%;}
+	95%{left: 16%; bottom: 72%;}
+	100%{left: 19.5%; bottom: 68%;}
+}
