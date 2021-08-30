@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Work</title>
+
+	<link rel="stylesheet" href="./styles/base.css">
+	<link rel="stylesheet" href="./styles/style.css">
+	
+	<script src="./scripts/script.js" defer=""></script>  
+	<!-- defer -- скрипт запускается только после HTML кода -->
+
+
+</head>
+<body >
+
+	<div class="wrapper">
+		<div class="container">
+			<input type="text" class="search">
+			<div class="main">
+				<h1 class="title">Начните тороговать  прямо сейчас</h1>
+				<p class="text"><img src="./assets/icons/check.png"> Нет спреда — торгуйте с прозрачными и точными котировками</p>
+				<p class="text"><img src="./assets/icons/check.png"> Достаточно депозита в $10, чтобы начать торговать</p>
+				
+				<form class="form">
+					<label class="form__box">
+						<input type="text" class="_req">
+						<span class="placeholder">Your e-mail</span>	
+						<span class="error">Заполните поле</span>			
+					</label>
+					<label class="form__box ">
+						<input type="text" class="_req">
+						<span class="placeholder">Придумайте пароль</span>	
+						<span class="error">Заполните поле</span>			
+					</label>
+					<div class="radio">
+						<p>Валюта для ввода и вывода средств</p>
+						<div class="radio__block">
+							<label class="radio__box">
+								<input type="radio" name="cash" value="P" checked="">
+								<span class="style">P</span>								
+							</label>
+							<label class="radio__box">
+								<input type="radio" name="cash" value="S">
+								<span class="style">S</span>								
+							</label>
+							<label class="radio__box">
+								<input type="radio" name="cash" value="E">
+								<span class="style">E</span>								
+							</label>
+						</div>
+					</div>
+					<label class="check">
+						<input type="checkbox" required="">
+						<span class="style"></span>
+						Я совершеннолетний, ознакомился и принимаю соглашение об оказании услуг.
+					</label>
+					<button class="btn" type="submit">Зарегистрироваться</button>
+				</form>
+			</div>
+			<div class="image-block">
+				<img src="./assets/images/laptop.png" class="laptop">
+				<img src="./assets/images/phone.png" class="phone">			
+			</div>
+		</div>
+	</div>
+
+  
+	
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
