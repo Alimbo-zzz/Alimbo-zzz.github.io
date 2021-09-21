@@ -1,0 +1,71 @@
+<!DOCTYPE html >
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Admin</title>
+    <link rel="stylesheet" href="main.min.css"/>
+    <script src="main.min.js" defer=""></script>
+  </head>
+  <body>
+    <div>
+    </div>
+    <main class="mainContent">
+      <div class="bar">
+        <div class="search">
+          <input class="search__inp" type="text"/>
+          <button class="search__btn">
+                  <svg>
+                    <use xlink:href="./assets/icons/svg/sprite.svg#search"></use>
+                  </svg>
+          </button>
+        </div>
+        <ul class="bar__list scroll_1"></ul>
+      </div>
+      <div class="info">
+        <div class="container">
+          <div class="title-box">
+            <div class="hamburger"><span class="hamburger__line"></span></div>
+            <h1 class="title">Основная информация</h1>
+            <div class="btns">
+              <button class="edit">Редактировать 
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#edit"></use>
+                      </svg>
+              </button>
+              <button class="save">Сохранить
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#save"></use>
+                      </svg>
+              </button>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <form class="form scroll_1" autocomplete="off">
+            <div class="form__block">
+              <label class="form__box"><img src="./assets/images/image 1.png"/>
+                <div class="form__users"><span>Пользователи</span><span id="users">491/2632</span></div>
+              </label>
+            </div>
+            <div class="form__block">
+              <label class="form__box">
+                <div class="placeHolder">Название</div>
+                <input class="_text-inp" type="text" name="name" value="text name"/>
+              </label>
+              <label class="form__box">
+                <div class="placeHolder">Описание</div>
+                <textarea class="_text-inp scroll_1" name="description"></textarea>
+              </label>
+              <label class="form__box">
+                <div class="placeHolder">Поле для ввода сообщения</div>
+                <textarea class="_text-inp scroll_1" name="message" required="required"></textarea>
+              </label>
+              <button class="btn" type="submit">Отправить всем</button>
+            </div>
+          </form>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </main>
+  </body>
+</html>
