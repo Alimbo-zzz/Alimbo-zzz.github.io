@@ -1,0 +1,403 @@
+<!DOCTYPE html >
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Funiro</title>
+    <link rel="stylesheet" href="./resources/API/splide/splide.min.css"/>
+    <script src="./resources/API/splide/splide.min.js" defer=""></script>
+    <link rel="stylesheet" href="main.min.css"/>
+    <script src="main.min.js" defer=""></script>
+  </head>
+  <body>
+    <div>
+    </div>
+    <main class="mainContent">
+      <header class="header">
+        <div class="container">
+          <div class="header__block">
+            <div class="header-logo">Funiro.</div>
+            <nav class="header-menu">
+              <ul class="header-menu__list">
+                <li class="header-menu__el">
+                  <div class="header-menu__box"><a class="header-menu__link" href="#">products</a>
+                    <button class="drop-btn">
+                            <svg>
+                              <use xlink:href="./assets/icons/svg/sprite.svg#arrow-down"></use>
+                            </svg>
+                    </button>
+                  </div>
+                  <ul class="drop-menu">
+                    <li class="drop-menu__el">product_1</li>
+                    <li class="drop-menu__el">product_2</li>
+                    <li class="drop-menu__el">product_3</li>
+                  </ul>
+                </li>
+                <li class="header-menu__el">
+                  <div class="header-menu__box"><a class="header-menu__link" href="#">rooms</a>
+                    <button class="drop-btn">
+                            <svg>
+                              <use xlink:href="./assets/icons/svg/sprite.svg#arrow-down"></use>
+                            </svg>
+                    </button>
+                  </div>
+                  <ul class="drop-menu">
+                    <li class="drop-menu__el">product_1</li>
+                    <li class="drop-menu__el">product_2</li>
+                    <li class="drop-menu__el">product_3</li>
+                    <li class="drop-menu__el">product_4</li>
+                  </ul>
+                </li>
+                <li class="header-menu__el"><a class="header-menu__link" href="#">inspirations</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__block">
+            <div class="header__search">
+              <button class="search-btn" id="search-btn">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#search"></use>
+                      </svg>
+              </button>
+              <form class="search-form">
+                <button class="search-btn">
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#search"></use>
+                        </svg>
+                </button>
+                <input type="text" autocomplete="off" placeholder="Search"/>
+              </form>
+            </div>
+            <div class="header__actions"><a class="favorites" href="#">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#favorite"></use>
+                      </svg></a>
+              <div class="basket">
+                <div class="basket__link"><span>0</span>
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#cart"></use>
+                        </svg>
+                </div>
+                <ul class="basket__list"></ul>
+              </div>
+            </div>
+          </div>
+          <button class="hamburger"><span class="hamburger__line"></span></button>
+        </div>
+      </header>
+      <div class="content">
+        <div class="intro">
+          <div class="container">
+            <div class="intro__card">
+              <h1 class="title">High-Quality Furniture Just For You</h1>
+              <p class="text">Our furniture is made from selected and best quality materials that are suitable for your dream home</p><a class="btn">Shop Now</a>
+            </div>
+            <div class="splide" id="main-slider">
+              <div class="main-slider-btns">
+                <button class="main-slider-btns__prev">
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#p-left"></use>
+                        </svg>
+                </button>
+                <button class="main-slider-btns__next">
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#p-right"></use>
+                        </svg>
+                </button>
+              </div>
+              <div class="main-slider__link">
+                <h3 class="title">Bohauss</h3>
+                <p class="text">luccri big safa-2-seat</p>
+                <h4 class="price title">Rp. 17.000.000
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#arrow-link"></use>
+                        </svg>
+                </h4>
+              </div>
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img src="./assets/images/main-slider/01.jpg"/></li>
+                  <li class="splide__slide"><img src="./assets/images/main-slider/02.jpg"/></li>
+                  <li class="splide__slide"><img src="./assets/images/main-slider/03.jpg"/></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="advantage">
+          <div class="container">
+            <ul class="advantage-list">
+              <li class="advantage-list__el">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#_1"></use>
+                      </svg>
+                <div class="advantage-list__box">
+                  <h3 class="title">High Quality</h3>
+                  <p class="text">Crafted from top materials</p>
+                </div>
+              </li>
+              <li class="advantage-list__el">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#_2"></use>
+                      </svg>
+                <div class="advantage-list__box">
+                  <h3 class="title">Warrany Protection</h3>
+                  <p class="text">Over 2 years</p>
+                </div>
+              </li>
+              <li class="advantage-list__el">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#_3"></use>
+                      </svg>
+                <div class="advantage-list__box">
+                  <h3 class="title">Free Shipping</h3>
+                  <p class="text">Order over 150 $</p>
+                </div>
+              </li>
+              <li class="advantage-list__el">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#_4"></use>
+                      </svg>
+                <div class="advantage-list__box">
+                  <h3 class="title">24 / 7 Support</h3>
+                  <p class="text">Dedicated support</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="products">
+          <div class="container">
+            <h2 class="title title_sec">Our products</h2>
+            <ul class="products__list">
+              <li class="products__el">
+                <div class="product" id="product-1">
+                  <div class="product__img"><img src="./assets/images/products/01.jpg"/>
+                    <div class="product__icons"><span class="_new">new</span>
+                    </div>
+                  </div>
+                  <div class="product__info">
+                    <h4 class="title">name_1</h4>
+                    <p class="text">text_1</p>
+                    <h4 class="title price">Rp 500.000<span></span></h4>
+                  </div>
+                  <div class="product__modal">
+                    <button class="product__btn">Add to card</button>
+                    <div class="product__links"><a class="product__link" href="">
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#share"></use>
+                              </svg><span>share</span></a><a class="product__link" href=""> 
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#favorite"></use>
+                              </svg><span>like</span></a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="products__el">
+                <div class="product" id="product-2">
+                  <div class="product__img"><img src="./assets/images/products/02.jpg"/>
+                    <div class="product__icons"><span class="_sale">-50%</span>
+                    </div>
+                  </div>
+                  <div class="product__info">
+                    <h4 class="title">name_2</h4>
+                    <p class="text">text_2</p>
+                    <h4 class="title price">Rp 300.000<span>600.000</span></h4>
+                  </div>
+                  <div class="product__modal">
+                    <button class="product__btn">Add to card</button>
+                    <div class="product__links"><a class="product__link" href="">
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#share"></use>
+                              </svg><span>share</span></a><a class="product__link" href=""> 
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#favorite"></use>
+                              </svg><span>like</span></a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="products__el">
+                <div class="product" id="product-3">
+                  <div class="product__img"><img src="./assets/images/products/03.jpg"/>
+                    <div class="product__icons">
+                    </div>
+                  </div>
+                  <div class="product__info">
+                    <h4 class="title">name_3</h4>
+                    <p class="text">text_3</p>
+                    <h4 class="title price">Rp 100.000<span></span></h4>
+                  </div>
+                  <div class="product__modal">
+                    <button class="product__btn">Add to card</button>
+                    <div class="product__links"><a class="product__link" href="">
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#share"></use>
+                              </svg><span>share</span></a><a class="product__link" href=""> 
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#favorite"></use>
+                              </svg><span>like</span></a></div>
+                  </div>
+                </div>
+              </li>
+              <li class="products__el">
+                <div class="product" id="product-4">
+                  <div class="product__img"><img src="./assets/images/products/04.jpg"/>
+                    <div class="product__icons"><span class="_sale">-50%</span><span class="_new">new</span>
+                    </div>
+                  </div>
+                  <div class="product__info">
+                    <h4 class="title">name_4</h4>
+                    <p class="text">text_4</p>
+                    <h4 class="title price">Rp 900.000<span>1.800.000</span></h4>
+                  </div>
+                  <div class="product__modal">
+                    <button class="product__btn">Add to card</button>
+                    <div class="product__links"><a class="product__link" href="">
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#share"></use>
+                              </svg><span>share</span></a><a class="product__link" href=""> 
+                              <svg>
+                                <use xlink:href="./assets/icons/svg/sprite.svg#favorite"></use>
+                              </svg><span>like</span></a></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="more">show more </button>
+          </div>
+        </div>
+        <div class="rooms">
+          <div class="container">
+            <div class="rooms__block">
+              <h2 class="title title_sec">50+ Beautiful rooms inspiration</h2>
+              <p class="text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p><a class="btn">Explore More</a>
+            </div>
+            <div class="rooms__block">
+              <div class="splide" id="slider_rooms">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="splide__box"><img src="./assets/images/rooms/01.jpg"/>
+                        <div class="label">
+                          <div class="label__box"><span class="idx">01</span><span class="name">name_1</span></div>
+                          <h4 class="title">title_1</h4><a class="btn"></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="splide__box"><img src="./assets/images/rooms/02.jpg"/>
+                        <div class="label">
+                          <div class="label__box"><span class="idx">02</span><span class="name">name_2</span></div>
+                          <h4 class="title">title_2</h4><a class="btn"></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="splide__box"><img src="./assets/images/rooms/03.jpg"/>
+                        <div class="label">
+                          <div class="label__box"><span class="idx">03</span><span class="name">name_3</span></div>
+                          <h4 class="title">title_3</h4><a class="btn"></a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tips_tricks">
+          <div class="container">
+            <h2 class="title title_sec">Tips & Tricks</h2>
+            <div class="splide" id="slider_tips">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="splide__box"><img src="./assets/images/tips/01.jpg"/>
+                      <div class="splide__info">
+                        <h3 class="title">How to create a living room to love</h3>
+                        <p class="text">20 jan 2020</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide__box"><img src="./assets/images/tips/02.jpg"/>
+                      <div class="splide__info">
+                        <h3 class="title">Make your cooking activity more fun with good setup</h3>
+                        <p class="text">20 jan 2020</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide__box"><img src="./assets/images/tips/03.jpg"/>
+                      <div class="splide__info">
+                        <h3 class="title">Solution for clean look working space</h3>
+                        <p class="text">10 jan 2020</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="furniture">
+          <div class="furniture__box">
+            <p class="text">Share your setup with</p>
+            <h2 class="title title_sec">#FuniroFurniture</h2>
+          </div>
+          <div class="furniture__cont">
+            <div class="furniture__grid">
+              <div class="furniture__el"><img src="./assets/images/furniture/01.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/02.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/03.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/04.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/05.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/06.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/07.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/08.jpg"/></div>
+              <div class="furniture__el"><img src="./assets/images/furniture/09.jpg"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__block">
+            <h3 class="title">Funiro.</h3>
+            <div class="footer__box">
+              <p class="text">Worldwide furniture store since 2020. We sell over 1000+ branded products on our website.</p><a class="footer__link" href="#">www.funiro.com</a>
+            </div>
+          </div>
+          <div class="footer__block">
+            <ul class="footer-list">
+              <li class="footer-list__el"><a class="footer-list__link text" href="#">Sawojajar Malang, Indonesia
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#location"></use>
+                        </svg></a></li>
+              <li class="footer-list__el"><a class="footer-list__link text" href="#">+6289 456 3455
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#phone"></use>
+                        </svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="modal-slider">
+        <div class="modal-slider__overlay"></div>
+        <h2 class="title">Furniture</h2>
+        <button class="remove-modal">✖</button>
+        <div class="splide" id="modal-slider">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">1</li>
+              <li class="splide__slide">2</li>
+              <li class="splide__slide">3</li>
+              <li class="splide__slide">4</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
