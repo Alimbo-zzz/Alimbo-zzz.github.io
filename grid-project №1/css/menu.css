@@ -1,0 +1,137 @@
+
+
+
+header{
+	position: relative;
+}
+
+.menu{
+	position: absolute;
+	top: 28px;
+	right: 200px;
+}
+
+
+.box-menu{
+	position: relative;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/* Меню */
+
+
+#menu{
+	position: absolute;
+	width: 650px;
+	height: 105px;
+	background-color:  #FCB324;
+	top: 0;
+	left: -650px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#menu a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 28px;
+	transition:0.5s;
+}
+
+
+
+
+
+
+/* Гамбургер */
+
+#hamburger{
+	width: 100px;
+	height: 100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border:3px solid white;	
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+
+.h-element{
+	display:block;
+	width: 40px;
+	height: 3px;
+	background-color: #fff;
+	margin: 5px 0;
+	transition: 0.5s;
+}
+
+.h-element::before, .h-element::after{
+	content: '';
+	display:block;
+	width: 40px;
+	height: 4px;
+	background-color: #fff;	
+	transition: 0.5s;
+}
+
+
+
+.h-element::before{
+	transform: translateY(10px);
+}
+
+
+.h-element::after{
+	transform: translateY(-15px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* hovers */
+
+
+
+#hamburger:hover, #hamburger:active {
+	border-color: #FCB324;
+}
+
+#hamburger:hover .h-element{
+	background-color:  #FCB324;
+} 
+
+
+#hamburger:hover .h-element::before {
+	background-color:  #FCB324;
+} 
+
+
+#hamburger:hover .h-element::after {
+	background-color:  #FCB324;
+} 
+
+
+
+
+#menu a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
