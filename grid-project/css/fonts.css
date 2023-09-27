@@ -1,0 +1,59 @@
+
+
+	/* CaviarDreams */
+
+@font-face{
+	font-family: "CaviarDreams";
+	src: url(../fonts/CaviarDreams.ttf) format("TrueType");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "CaviarDreams";
+	src: url(../fonts/Caviar_Dreams_Bold.ttf) format("TrueType");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: "CaviarDreams";
+	src: url(../fonts/CaviarDreams_Italic.ttf) format("TrueType");
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "CaviarDreams";
+	src: url(../fonts/CaviarDreams_BoldItalic.ttf) format("TrueType");
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+
+
+	/* Intro */
+
+@font-face{
+	font-family: "Intro";
+	src: url(../fonts/Intro.otf) format("OpenType");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+		/* geometric */
+
+@font-face{
+	font-family: "geometric";
+	src: url(../fonts/geometric.otf) format("OpenType");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+

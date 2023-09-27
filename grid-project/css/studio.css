@@ -1,0 +1,177 @@
+body{
+	font-family: CaviarDreams;
+}
+
+.studio{
+	background-color: #E9E9E3;
+	display: grid;
+	grid-template-rows: calc(100vw/3.5) calc(100vw/3.8) ;
+	min-width: 360px;
+
+}
+
+
+
+
+
+/* Первый блок */
+
+
+
+.block-1{
+	display:grid;
+	grid-template-columns: repeat(16, 1fr);
+}
+
+
+.mini-block_1{
+	background: #FF9A5B;
+	color:white;
+	grid-column: 1/ span 5;
+	background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="rgb(255,255,255)" stroke-width="1"/></svg>');
+	font-weight: bold;
+	font-size: calc(100vw/30);
+	padding: calc(100vw/6.5) 0 0 calc(100vw/6.6);
+
+}
+
+
+
+.mini-block_2{
+	grid-column:6/ span 11;
+	display:flex;
+	justify-content: center;
+	font-size: calc(100vw/85);
+
+}
+
+
+.mini-block_2 .box-1 p{
+	margin: 10px;
+}
+
+
+
+
+.mini-block_2 .box-1, .box-2 {
+	margin: 10px;
+}
+
+
+.mini-block_2 .box-2{
+	width: calc(100vw/2.3);
+	font-size: calc(100vw/100);
+}
+
+.mini-block_2 .mini-box{
+	display:flex;
+	justify-content: center;
+}
+
+
+.mini-block_2 .mini-box p{
+	margin: 10px;
+}
+
+
+.mini-block_2 .box-2 img{
+	width: 100%;
+	margin-bottom: calc(100vw/30);
+}
+
+
+
+
+
+/* Второй блок */
+
+.block-2{
+	display:grid;
+	grid-template-columns: repeat(16, 1fr);
+}
+
+
+.block-2 .mini-block_1{
+	background-color: #E9E9E3;
+	color:black;
+	font-size: calc(100vw/75);
+	padding: 0;
+	background-image: none;
+	display:flex;
+	text-align: center;
+	align-items: center;
+}
+
+.block-2 .mini-block_1 p{
+	margin: 10px;
+	font-weight: normal;
+
+}
+
+
+.block-2 .mini-block_1 h3{
+	font-size: calc(100vw/40)
+
+}
+
+
+.block-2 .mini-block_2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.block-2 .mini-block_2 .box{
+	width: calc(100vw/5)
+
+}
+
+.block-2 .mini-block_2 .box img{
+	width: 100%;
+
+}
+
+
+.block-2 .mini-block_2 .box .info{
+	margin: 30px 0 10px 3px;
+
+}
+
+
+
+.block-2 .mini-block_2 .box .src{
+	display:flex;
+	justify-content: space-between;
+	margin: 10px 0;
+
+}
+
+
+.block-2 .mini-block_2 .box .src img{
+	width: calc(100vw/70);
+	height: calc(100vw/80);
+
+}
+
+
+
+.block-2 .mini-block_2 .box .src .mini-box:nth-child(1) img{
+	width: calc(100vw/70);
+	height: calc(100vw/80);
+	margin-left: 4px;
+
+}
+
+
+.block-2 .mini-block_2 .box .src .mini-box:nth-child(1){
+	font-weight: bold;
+	color: #F55308;
+
+}
+
+
+
+.block-2 .mini-block_2 .box .src .mini-box:nth-child(2) a{
+	padding: 0 5px;
+}
